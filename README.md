@@ -1,4 +1,4 @@
-# Heroku Playwright Buildpack Only Firefox
+# Heroku Playwright Buildpack Only Chromium
 
 Python3.10 must be installed.
 
