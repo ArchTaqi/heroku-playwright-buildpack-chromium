@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 echo "[M-Install] 'python -m playwright install 16:57'"
-find / -name install_playwright_browser.py
-cls
-exitttt
+#find / -name install_playwright_browser.py
 #python -c 'exec("import os\nos.environ[\"PLAYWRIGHT_BROWSERS_PATH\"]=\"/app/.heroku/python/lib/python3.10/site-packages/playwright/driver/package/.local-browsers/\"\nos.system(\"python -m playwright install chromium\")")'
-python run.py
+python "$PWD/bin/install_playwright_browser.py"
 export PLAYWRIGHT_BUILDPACK_BROWSERS="chromium"
 set -e
 
