@@ -7,8 +7,8 @@ Note: In heroku settings python buildpack must be added before this buildpack. O
 ```txt
 heroku buildpacks:add --index 1 heroku/python
 ```
-then
 
+now you can add this buildpack too
 ```txt
 heroku buildpacks:add https://github.com/gokhantuffer/heroku-playwright-buildpack-chromium.git -a my-app
 ```
