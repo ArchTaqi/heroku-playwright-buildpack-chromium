@@ -2,7 +2,7 @@
 
 This buildpack installs all the needed dependencies and Chromium browser and its driver to use Playwright ONLY Chromium on Heroku.
 
-Note: In heroku settings python buildpack must be added before this buildpack. Or you can add python from cli:
+Note: In heroku settings python buildpack must be added before this buildpack. Or you can add python buildpack from cli:
 
 ```txt
 heroku buildpacks:add --index 1 heroku/python
