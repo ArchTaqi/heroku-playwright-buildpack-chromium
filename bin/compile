@@ -38,7 +38,6 @@ libxfixes3
 libxrandr2
 libgbm1
 libxkbcommon0
-libasound2
 EOF
 
     local cache_tmpdir=$(mktemp -d)
