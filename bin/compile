@@ -34,7 +34,6 @@ install_system_deps() {
 	if [[ "$SUPPORTED_BROWSERS" == *"chromium"* ]]; then
 		cat << EOF >>$build_tmpdir/Aptfile
 # Chromium dependencies
-# new
 libatk1.0-0t64
 libatk-bridge2.0-0t64      
 libxcomposite1
