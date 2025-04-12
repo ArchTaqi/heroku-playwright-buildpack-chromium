@@ -28,7 +28,7 @@ install_system_deps() {
 	local build_tmpdir=$(mktemp -d)
 	mkdir -p $build_tmpdir
 
-	SUPPORTED_BROWSERS=${PLAYWRIGHT_BUILDPACK_BROWSERS:-chromium,firefox}
+	SUPPORTED_BROWSERS=${PLAYWRIGHT_BUILDPACK_BROWSERS:-chromium}
 	echo "Installing Playwright dependencies (env: PLAYWRIGHT_BUILDPACK_BROWSERS) for $SUPPORTED_BROWSERS."
 
 	if [[ "$SUPPORTED_BROWSERS" == *"chromium"* ]]; then
